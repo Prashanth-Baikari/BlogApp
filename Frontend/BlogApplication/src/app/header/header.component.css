@@ -1,0 +1,23 @@
+.header{
+    padding: 5px 10px;
+    background: rgba(65, 113, 176, 0.897);
+}
+.title{
+    text-align: left;
+}
+.container{
+    text-align:justify;
+}
+
+.title{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.register,.login{
+    float: right;
+    text-decoration: none;
+    margin: 20px;
+    color: aliceblue;
+    padding-top: 4px;
+}

@@ -1,0 +1,15 @@
+.header{
+    padding: 5px 10px;
+    background: rgba(67, 121, 191, 0.897);
+}
+.container{
+    text-align:justify;
+}
+.createblog,.viewmyblogs,.logout{
+    float: right;
+    text-decoration: none;
+    margin: 15px;
+    color: aliceblue;
+    padding-top: 1px;
+    justify-content:flex-end;
+}

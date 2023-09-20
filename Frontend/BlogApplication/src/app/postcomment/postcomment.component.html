@@ -1,0 +1,10 @@
+
+<div class="container justify-content-center">
+    <form class="form-pc" #pcForm="ngForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label>comment</label>
+                <input type="text" id="comment" name="comment" #comment="ngModel" [(ngModel)]="commentDao.comment" class="form-control" placeholder="comment" required="" autofocus="">
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Comment</button>
+    </form>
+</div>
